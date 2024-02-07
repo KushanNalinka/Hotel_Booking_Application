@@ -19,7 +19,7 @@ const New = ({ inputs, title }) => {
     data.append("upload_preset", "upload");
     try {
       const uploadRes = await axios.post(
-        "POST https://api.cloudinary.com/v1_1/dcwsfsuxt/image/upload",
+        "https://api.cloudinary.com/v1_1/dcwsfsuxt/image/upload",
         data
       );
 
